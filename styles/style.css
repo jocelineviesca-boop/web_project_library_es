@@ -1,0 +1,137 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  width: 58px;
+  height: 80px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 8px 0 0;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
+  margin-top: 128px;
+  max-width: 635px;
+}
+
+.header__description {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 32px;
+  max-width: 515px;
+}
+
+.header__image {
+  max-width: 636px;
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__address {
+  margin: 0;
+  color: #838383;
+}
+.staff {
+  background-image: url(../images/staff_picks_background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+}
+.staff__title {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.staff__subtitle {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 68px;
+}
+.staff__cards {
+  max-width: 760px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  list-style-type: none;
+  padding-left: 0;
+}
+.card {
+  width: 360px;
+  min-height: 420px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.card__content {
+  padding: 20px;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.card__footer {
+  margin-top: auto;
+  color: #838383;
+  text-align: inherit;
+  overflow: hidden;
+}
