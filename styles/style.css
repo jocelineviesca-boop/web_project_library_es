@@ -141,10 +141,11 @@
 .card__text {
 }
 .events {
-  padding: 100px 0 120px 80px;
   display: flex;
-  align-items: start;
   justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 100px 80px 120px;
   box-sizing: border-box;
   background-color: #f2f2f2;
 }
@@ -211,7 +212,10 @@
 }
 
 .events__image {
-  max-width: 100%;
+  width: 780px;
+  display: block;
+  position: relative;
+  z-index: 1;
 }
 
 .person {
@@ -219,27 +223,34 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
+  justify-content: flex-start;
+  z-index: 5;
 }
 
 .person_name_feynman {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  top: -30px;
+  left: 319px;
 }
 
 .person_name_burbidge {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  top: 96px;
+  right: 125px;
 }
 
 .person_name_cannon {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  bottom: 18px;
+  right: 216px;
 }
 
 .person_name_mitchell {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  bottom: 82px;
+  left: 142px;
 }
 
 .person_name_tarter {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  top: 79px;
+  left: 159px;
 }
 
 .person__image {
