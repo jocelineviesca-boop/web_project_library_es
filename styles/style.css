@@ -252,6 +252,12 @@
   top: 79px;
   left: 159px;
 }
+.person_name_cannon .person__caption {
+  transform: translateY(130px);
+}
+.person_name_mitchell .person__caption {
+  transform: translateY(110px);
+}
 
 .person__image {
   max-width: 100%;
