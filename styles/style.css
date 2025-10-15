@@ -202,6 +202,15 @@
   color: #2f80ed;
   text-decoration: none;
 }
+.person {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: flex-start;
+  z-index: 5;
+}
 
 .events__cover {
   flex-grow: 1;
@@ -216,16 +225,6 @@
   display: block;
   position: relative;
   z-index: 1;
-}
-
-.person {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 6px;
-  justify-content: flex-start;
-  z-index: 5;
 }
 
 .person_name_feynman {
@@ -251,12 +250,6 @@
 .person_name_tarter {
   top: 79px;
   left: 159px;
-}
-.person_name_cannon .person__caption {
-  transform: translateY(130px);
-}
-.person_name_mitchell .person__caption {
-  transform: translateY(110px);
 }
 
 .person__image {
