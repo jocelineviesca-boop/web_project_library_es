@@ -215,14 +215,13 @@
   color: #2f80ed;
   text-decoration: none;
 }
+
 .person {
-  position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 6px;
-  justify-content: flex-start;
-  z-index: 5;
+  gap: 10px;
+  position: absolute;
 }
 
 .events__cover {
@@ -237,7 +236,6 @@
   width: 780px;
   display: block;
   position: relative;
-  z-index: 1;
 }
 
 .person_name_feynman {
