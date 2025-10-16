@@ -90,12 +90,15 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 60px 20px;
+  padding: 100px 0 140px;
 }
 .staff__title {
   color: #ffffff;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 0 0 24px;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 400;
 }
 
 .staff__subtitle {
@@ -118,10 +121,11 @@
   width: 360px;
   min-height: 420px;
   background-color: #ffffff;
-  border-radius: 5px;
+  border-radius: 6px;
   display: flex;
   flex-direction: column;
   justify-content: start;
+  box-sizing: border-box;
 }
 .card__content {
   padding: 20px;
@@ -135,10 +139,19 @@
   color: #838383;
   text-align: inherit;
   overflow: hidden;
+  font-size: 14px;
+  line-height: 20px;
 }
 .card__title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0;
 }
 .card__text {
+  margin: 20px 0 0;
+  font-size: 16px;
+  line-height: 24px;
 }
 .events {
   display: flex;
